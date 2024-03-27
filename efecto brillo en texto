@@ -1,0 +1,61 @@
+/*Colores, excepto el blanco, modificables a placer*/
+
+:hover {
+		background: -webkit-gradient(linear, left top, right top, from(#ba160c), to(#ba160c), color-stop(0.5, #fff));
+		background: -moz-gradient(linear, left top, right top, from(#ba160c), to(#ba160c), color-stop(0.5, #fff));
+		background: gradient(linear, left top, right top, from(#ba160c), to(#ba160c), color-stop(0.5, #fff));
+		-webkit-background-size: 125px 100%;
+		-moz-background-size: 125px 100%;
+		background-size: 125px 100%;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		background-clip: text;
+		-webkit-animation-name: brillibrilli;
+		-moz-animation-name: brillibrilli;
+		animation-name: brillibrilli;
+		-webkit-animation-duration: 2s;
+		-moz-animation-duration: 2s;
+		animation-duration: 2s;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-color: #402225;
+        color: rgba(186,22,12,0.5);
+}
+
+@-moz-keyframes brillibrilli {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
+}
+
+@-webkit-keyframes brillibrilli {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
+}
+
+@-o-keyframes brillibrilli {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
+}
+
+@keyframes brillibrilli {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
